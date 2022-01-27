@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar bg-primary">
-        <a class="navbar-brand ext-white">
+        <a class="navbar-brand text-white">
             <img src="@/assets/logo.png" alt="Vue Logo" class="d-inline-block align-text-top mx-2" height="24">
             Daybook
         </a>
