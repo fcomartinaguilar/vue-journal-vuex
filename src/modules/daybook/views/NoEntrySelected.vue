@@ -8,8 +8,14 @@
 <script>
 import { defineAsyncComponent } from 'vue'
 export default {
+    name: 'NoEntrySelected',
     components: {
         Fab: defineAsyncComponent( () => import('../components/Fab.vue'))
+    },
+    methods: {
+        createNewEntry() {
+            this.$router.push({ name: 'entry', params: { id: 'new' } })
+        }
     }
 }
 </script>

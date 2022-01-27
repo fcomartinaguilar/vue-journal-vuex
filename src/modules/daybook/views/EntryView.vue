@@ -33,6 +33,7 @@
 <script>
 import { defineAsyncComponent } from 'vue'
 export default {
+    name: 'EntryView',
     components: {
         Fab: defineAsyncComponent( () => import('../components/Fab.vue'))
     }
